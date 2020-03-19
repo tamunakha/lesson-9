@@ -4,12 +4,16 @@ body,html {
 }
 .header-section {
 	background-image: url(../image/header-image.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 }
+.head-section header {
+	width: 100%;
+
+}
+
+
 
 .container {
 	height: 100%;
@@ -21,14 +25,22 @@ body,html {
 	align-items: flex-start;
 
 }
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+
+
+}
 
 .navigation-ul {
 	display: flex;
+	justify-content: space-between;
 }
 
 .navigation-ul  li {
 	margin: 0 30px;
 	color: blue;
+	font-size: 15px;
 	text-transform: uppercase;
 
 }
@@ -39,7 +51,7 @@ body,html {
 header {
 	position: fixed;
 	height: 90px;
-	top:0;
+	margin-top: 0;
 	left: 0;
 	z-index: 3;
 	}
@@ -57,13 +69,28 @@ header {
 }
 .h1{
 	margin-bottom: 50px;
-	color: #fff;
+	color:white;
+	font-size: 100px;
 }
+.button{
+	margin-top: 25px;
+	height:50px;
+	width: 200px;
+	background-color: blue;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+
+
+}
+
 .section-box{
 	height: 100%;
 	width: 100%;
 	display: flex;
-
 }
 .section-box1{
 	height: 600px;
@@ -76,7 +103,14 @@ header {
 	padding: 90px;
 
 }
+.section-box1 p {
+	font-size:20px;
+	height: 190px;
+	width: 470px;
+	opacity: 50%;
+}
 .h5{
+	font-size: 50px;
 	margin-bottom: 25px;
 	height: 190px;
 	width: 460px;
@@ -86,14 +120,50 @@ header {
 	width: 460px;
 	opacity: 50%;
 }
-.section-2 img {
+.section-1 img{
 
 	width: 100%;
 
 }
-.section-2{
+.section-1 {  
 	display: flex;
-	height: 600px;
+	height: 650px;
 	width: 50%;
+}
+
+.section-box2{
+	height: 100%;
+	width: 100%;
+}
+.section2-box2 {
+	height: 100%;
+	width: 100%;
+	background-color:white;
+	display: flex;
+	padding: 0 50px;
+	justify-content: center;
+	position: relative;
+
+}
+.section-text2{
+	height: 140px;
+	width: 750px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.h3{
+	font-size: 40px;
+	margin-bottom: 15px;
+
+}
+.section-text2 p {
+	font-size: 20px;
+	opacity: 70%;
+
 }
 
